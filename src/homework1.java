@@ -57,5 +57,6 @@ public class homework1 {
         System.out.println(" Как пройти в библиотеку! ".trim());
 
         // The end!
+        //Спасибо за просмотр!
     }
 }
