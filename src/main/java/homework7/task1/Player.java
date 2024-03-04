@@ -26,12 +26,12 @@ public class Player {
     @JacksonXmlProperty(localName = "isOnline")
     private boolean isOnline;
 
-/*    public Player(int id, String nick, int points, boolean isOnline) {
+    public Player(int id, String nick, int points, boolean isOnline) {
         this.id = id;
         this.nick = nick;
         this.points = points;
         this.isOnline = isOnline;
-    }*/
+    }
 }
 
 

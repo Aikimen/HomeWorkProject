@@ -20,6 +20,9 @@ public class Players {
     @JacksonXmlElementWrapper(useWrapping = false)
     private List<Player> listOfPlayers = null;
 
+    public <E> Players(List<E> playerId1) {
+    }
+
     public Collection<Player> getListOfPlayers() {
         return listOfPlayers;
     }
