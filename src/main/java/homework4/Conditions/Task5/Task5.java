@@ -1,17 +1,15 @@
 package homework4.Conditions.Task5;
 
 
-import java.util.Arrays;
-
 public class Task5 {
     public static void main(String[] args) {
 
         String password = "G5U17@";
-        String[] specSymbol = { "!", "@", "#", "$", "%", "^", "&", "*", "№"};
+        String[] specSymbol = {"!", "@", "#", "$", "%", "^", "&", "*", "№"};
 
         if (password.length() >= 8) {
             System.out.println(password.length());
-            if (hasDigits(password)){
+            if (hasDigits(password)) {
 //                System.out.println("Password has digit(s)");
 
                 if (hasSpecSymbol(password)) {
@@ -30,19 +28,22 @@ public class Task5 {
 
     }
 
-    String[] specSymbol = { "!", "@", "#", "$", "%", "^", "&", "*", "№"};
+    String[] specSymbol = {"!", "@", "#", "$", "%", "^", "&", "*", "№"};
+
     // Метод для проверки содержит ли пароль хоть 1 спецсимвол
     public static Boolean hasSpecSymbol(String word) {
-       String[] specSymbol = { "!", "@", "#", "$", "%", "^", "&", "*", "№"};
-       Boolean hasSpecSymbol = false;
+        String[] specSymbol = {"!", "@", "#", "$", "%", "^", "&", "*", "№"};
+        Boolean hasSpecSymbol = false;
         for (int i = 0; i < word.length(); i++) {
-            if(word.contains(specSymbol[i])) {
-              hasSpecSymbol = true;
-              //break;
+            if (word.contains(specSymbol[i])) {
+                hasSpecSymbol = true;
+                //break;
             }
         }
         return hasSpecSymbol;
-    };
+    }
+
+    ;
 
     // проверка содержит ли пароль хоть 1 цифру
     public static Boolean hasDigits(String word) {

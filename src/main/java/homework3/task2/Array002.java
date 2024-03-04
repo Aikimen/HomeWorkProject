@@ -1,7 +1,5 @@
 package homework3.task2;
 
-import java.lang.Math.*;
-
 
 public class Array002 {
     public static void main(String[] args) {
