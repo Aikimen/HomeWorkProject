@@ -1,0 +1,20 @@
+<Players>
+    <Player>
+        <id>1</id>
+        <nick>Player1</nick>
+        <points>10</points>
+        <isOnline>true</isOnline>
+    </Player>
+    <Player>
+        <id>2</id>
+        <nick>Player2</nick>
+        <points>11</points>
+        <isOnline>false</isOnline>
+    </Player>
+    <Player>
+        <id>3</id>
+        <nick>Player3</nick>
+        <points>0</points>
+        <isOnline>true</isOnline>
+    </Player>
+</Players>
